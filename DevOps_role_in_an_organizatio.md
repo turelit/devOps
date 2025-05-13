@@ -1,21 +1,20 @@
 ---
-title: DevOps role in an orgnization
-authors:
-    - Rafal Turel <rafal.turel@gmail.com>
-tags:
-    - DevOps
-    - Organization
+title: "DevOps role in an orgnization"
+author: "Rafal Turel"
+date: "2025-05-13"
+description: "Different role of DevOps in organizations. Review of common approaches."
+slug: "devops-role-in-an-orgnization"
+tags: ["devops", "organization"]
 ---
-
-## DevOps role in an organization
 How can we define the DevOps role in a broader context of a major enterprise? This is a question that does not find an obvious answer given the unique and, often not clearly defined, nature of DevOps position and duties among software engineers.
 Back in the old days, it used to be that operations and development teams would exist as separate entities in a corporate organization, often fairly isolated from each other. Then the idea came to find a more open model of cooperation between them, which gave birth to the concept and subsequently the position of DevOps engineers. Closing the gaps in communications, establishing shared responsibility and enabling transfer of knowledge between both worlds would produce a more reliable, efficient and cost-effective process of delivering software to the client. That was the idea, however its implementation came in two distinct forms: as a shared „platforms” team and as a DevOps engineer dedicated to a specific project team.
-### Shared services
+## Shared services
 In the shared model we would have a team of DevOps engineers, working together as a single entity on providing services to specific project teams. This approach does not at first sound very different than the „traditional” model of having a separate operations team. In practice however, such DevOps „platforms" team would work more closely with developers, treating them essentially as their users, while in case of infrastructure team the users were, well, the actual end-users. So the difference mainly focuses on who is the stakeholder and what are the responsibilities of such team. In real world, major enterprises would still have dedicated teams handling operations, network, security etc. The DevOps team would provide services mainly to the software developers working on their projects.
-### Dedicated team member
+## Dedicated team member
 Another approach would be to delegate the DevOps engineer to a project team, becoming a member working together on a given software feature. This would be typically an Agile team, ideally of around 6 engineers, were DevOps engineer would be simply part of the project same as a programmer or QA tester. This allows for a closer alignment and better understanding. DevOps engineer being involved so closely in a development process can understand the requirements better and create more bespoke solutions fitting very specific needs. 
-### Comparison
+## Comparison
 Which model makes more sense then? It all depends on organization’s size, maturity and expected workload. If we want to have a shared model, where team of DevOps engineers provide its services to developers, the assumption is that at least some of the day-to-day DevOps work would be handled by developers themselves, since it would be impractical to involve another team on a daily basis. This can be achieved with a well maintained platform or set of tools that could aid developers in this, for example having a middleware Platform as a Service handling cloud resources creation or another approach which is known as „Golden Path” - a well established process for creating and delivering software projects. Sets of tools, often internally developed, would be managed by the DevOps team, who would engage with specific developers more as a general support and normally focusing on providing stable service to development teams. This could involve, among others, templates for CICD pipelines, automated provisioning of resources, compliance monitoring.
 ## Being realistic
 As it often is, theory is not always possible to be realized when met with reality of running a business. Small team of developers might simply not have enough capacity to also manage their software delivery or cloud resources. Depending on available tools, setting up and maintaining infrastructure can be a daunting task in itself. In a large enterprise typically a dedicated Ops team would develop and mainatin the cloud account or on-premise resources while a DevOps team might work only on the software delivery toolset and yet still there could be room for a dedicated DevOps engineer assigned to a specific project team. As mentioned, it all depend on organisations size and level of expected workload. If we assume a very dynamic environment in which developers are encouraged to deliver changes as often as possible, having a very reliable and robust toolset for this is essential. However in smaller organiszations that have more constrained budgets and perhaps not as grand ambitions it is not uncommon to see DevOps engineer working essentialy as the go-to person for everything infrastructure related. 
 DevOps position is interdisciplinary by definition so its also sometimes the case that a particular engineer might be more closely involved in programming, as often DevOps engineers come from development background themselves. However this is not ideal as it can end up with blurred responsibilities and over time permissions creep, ending up with single engineers having essentially full access over entire software delivery lifecycle.
+_This post was written in Markdown and published with Git using [PushBlog](https://pushblog.io)._
